@@ -3,3 +3,17 @@ https://beta.manage.bizflycloud.vn/dashboard
 
 email: namandroid.it@gmail.com
 pass:@Nampham90
+
+
+export enum DisplayScreenID {
+    // ----------------------------------------------------------------------------------------
+    // --- 共通
+    // ----------------------------------------------------------------------------------------
+    SPCM00001 = "SPCM00001",
+    SPCM00002 = "SPCM00002",
+    SPCM00101 = "SPCM00101",
+    SPCM00201 = "SPCM00201",
+    SPCM00251 = "SPCM00251",
+    SPCM00301 = "SPCM00301"
+
+}
