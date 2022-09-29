@@ -17,3 +17,6 @@ export enum DisplayScreenID {
     SPCM00301 = "SPCM00301"
 
 }
+
+
+[nzPageSizeOptions]="[10,20,30]"
