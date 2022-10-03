@@ -21,5 +21,13 @@ export enum DisplayScreenID {
 
 [nzPageSizeOptions]="[10,20,30]"
 
+sữa lỗi Unable to resolve dependency tree error when installing npm packages
+
+
+npm config set legacy-peer-deps true
+npm install
+hoặc 
+npm install --legacy-peer-deps
+
 
 https://stackblitz.com/edit/abstract-component-ykywzm?file=src%2Fapp%2Fcommon%2Fbase.component.ts,src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fcommon%2FIObject.ts,src%2Fapp%2Fservice%2Fproduct-service.service.ts,src%2Fapp%2Fapp.component.html,src%2Fapp%2Fservice%2Fbase-http.service.ts,src%2Fapp%2Fapp.module.ts,src%2Fapp%2Fapp.component.css
