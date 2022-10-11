@@ -36,3 +36,7 @@ https://ng.ant.design/docs/i18n/en
 registerLocaleData
 
 //https://stackblitz.com/edit/angular-4wdjit?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fapp.component.html,src%2Fapp%2Fapp.component.css
+
+//.ant-layout-sider {
+  background: white !important;
+}
