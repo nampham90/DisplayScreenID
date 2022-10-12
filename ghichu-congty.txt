@@ -40,3 +40,30 @@ registerLocaleData
 //.ant-layout-sider {
   background: white !important;
 }
+
+// mau chuyen sac
+https://webgradients.com/
+// button
+https://gradientbuttons.colorion.co/?fbclid=IwAR1SfMmaYLScHyLkGiaZA7PE-FQdaM09PAX9tD3PRFfbRwzJwhqwb63sEns
+
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
