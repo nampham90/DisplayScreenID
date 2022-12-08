@@ -30,6 +30,13 @@ sudo apt install git
 
 // check port ubuntu
 netstat -tulpn
+
+// liệt kê danh sách các port đang mơ bào gồm tcp và udp trên ubuntu
+netstat -lntu
+
+// liệt kê các ổ cắm nghe port mỡ
+ss -lntu
+
 // lenh voi pm2
 pm2 start <bin/www.js>
 pm2 stop
@@ -37,6 +44,7 @@ pm2 delete
 pm2 save
 pm2 startup
 
+// open tường lữa (ufw gọi là tường lữa)
 sudo ufw enable
 sudo ufw allow 3000
 sudo ufw reset
