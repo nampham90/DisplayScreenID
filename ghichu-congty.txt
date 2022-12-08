@@ -1,8 +1,4 @@
-tk khoan
-https://beta.manage.bizflycloud.vn/dashboard
 
-email: namandroid.it@gmail.com
-pass:@Nampham90
 
 
 export enum DisplayScreenID {
