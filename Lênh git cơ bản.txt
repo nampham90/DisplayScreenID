@@ -1,0 +1,58 @@
+git branch // danh sách các nhánh trong repo
+git checkout {branch name} // truy cập vào branch
+git checkout -b {branch name} // tạo một nhánh mới
+git merge {branch name} // tổng hợp branch hiện tại với branch cần tổng hợp (branch name)
+git branch -d {branch name} // xóa branch
+
+git remote add githup_nampham https://github.com/nampham90/demogithup.git // add 1 remote
+git push githup_nampham master // đây dự liệu lên remote
+
+
+git remote -v // hiển thị danh sách các remote
+
+git push - u githup_nampham dev // đẩy branch từ local lên remote
+
+git fetch origin // hiện thị tất các nhanh trên remote
+
+git checkout -b {branch name} origin/{branch name} // lấy một nhánh từ remote về local
+
+
+// lenh ubuntu
+
+// install nodejs
+// install npm
+// install pm2
+sudo npm install pm2 -g
+// check version pm2 -v
+// install git
+sudo apt install git
+// check version git --version
+
+// check port ubuntu
+netstat -tulpn
+// lenh voi pm2
+pm2 start <bin/www.js>
+pm2 stop
+pm2 delete 
+pm2 save
+pm2 startup
+
+sudo ufw enable
+sudo ufw allow 3000
+sudo ufw reset
+
+// xóa và cài đặt lại nodejs and npm tron ubuntu
+Remove old nodejs installation and update packages
+sudo apt-get remove nodejs npm
+sudo apt-get update
+sudo apt-get upgrade
+// 
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+
+// install
+sudo apt-get install -y nodejs
+// check verson node -v , npm -v
+
+
+
+
