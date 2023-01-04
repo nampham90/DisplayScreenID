@@ -70,6 +70,44 @@ sudo rm <name file>
 // noip
 hryCYPNE-670XmZoeCxbbasNe-wlck3kudZFvX8S1g-IFjdwKycyehzZl5z-6I2Z9RLPYgk4U1QW-vhnXfK55HDArsM8Q-pW6m2Bbklv87N78k-NdN4f9bSrXSXpUHn-JpOyBj5ySLw7U4my-bl9PEVdEFJRJ7YNQ-H3QK4iu9
 
+// CAU HINH IP TINH
+// install net-tools 
+sudo apt install net-tools
+
+ifconfig
+// enp2s0 Network Interface, tuỳ vào mỗi card mạng và vị trí chip tên này có thể thay đổi.
+// 192.168.1.9: Khi tham gia Internet, mỗi máy sẽ được cấp một địa chỉ số IPv4 duy nhất nên địa chỉ của bạn sẽ khác.
+// ngoai ra chung ta co the lay cac gia tri tren bang cau lenh sau
+ip route | grep default
+// ket qua; default via 192.168.1.1 dev enp2s0 proto dhcp src 192.168.1.9 metric 100
+
+// tim kiem ten file can thay doi
+ls /etc/netplan/
+
+//trước khi thay đổi cấu hình thì bạn nên tạo một bản backup dự phòng như sau:
+sudo cp /etc/netplan/01-network-manager-all.yaml 01-network-manager-all.yaml.bak
+
+// edit file  01-network-manager-all.yaml
+sudo nano /etc/netplan/01-network-manager-all.yaml
+
+// ap dung thay doi
+sudo netplan apply
+// sau do go ifconfig de kiem tra ket qua
+
+// tham khao https://funix.edu.vn/chia-se-kien-thuc/cach-dinh-cau-hinh-dia-chi-ip-tinh-tren-ubuntu-22-04-lts/
+
+// MAT KHAU VIETEL
+admin
+ZTEGD06C4DBA
+
+// CAU HINH NOIP
+https://www.youtube.com/watch?v=xjPvNUKqIto
+
+
+
+
+
+
 
 
 
