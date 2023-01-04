@@ -106,6 +106,8 @@ https://www.youtube.com/watch?v=xjPvNUKqIto
 CAU HINH DICH VU NGINX HTTP
 https://news.cloud365.vn/huong-dan-cai-dat-nginx-tren-ubuntu-20-04/
 
+https://fptcloud.com/nginx/
+
 
 
 
