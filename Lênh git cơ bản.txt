@@ -111,6 +111,12 @@ https://fptcloud.com/nginx/
 // sua file cau hinh
 sudo nano /etc/nginx/sites-enabled/vantai_kdp
 
+// kiem tra cau hinh da dung hay chua
+sudo nginx - t
+
+// nap lai cau hinh
+sudo service nginx reload
+
 
 
 
