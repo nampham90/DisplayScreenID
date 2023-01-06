@@ -108,6 +108,9 @@ https://news.cloud365.vn/huong-dan-cai-dat-nginx-tren-ubuntu-20-04/
 
 https://fptcloud.com/nginx/
 
+// sua file cau hinh
+sudo nano /etc/nginx/sites-enabled/vantai_kdp
+
 
 
 
