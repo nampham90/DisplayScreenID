@@ -119,6 +119,26 @@ sudo service nginx reload
 
 
 
+server {
+      listen 80;
+      listen [::]:80;
+
+
+      root /var/www/vantai_kdp/html/fontend_KDP;
+      index index.html index.htm index.nginx-debian.html;
+
+      server_name kdplogistics.themenew.net;
+
+      location / {
+           try_files $uri $uri/ -404;
+      }
+
+
+  }
+
+
+
+
 
 
 
