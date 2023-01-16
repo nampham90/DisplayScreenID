@@ -142,6 +142,8 @@ server {
   ng build --configuration="development" // build dev
   ng build --configuration="production"  // build product
 
+https://vietnetwork.vn/linux/cach-quan-ly-tu-xa-may-chu-ubuntu-bang-ssh/
+
 
 
 
